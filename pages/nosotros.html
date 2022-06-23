@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Sobre Nosotros</title>
     <link rel="stylesheet" href="./../styles.css">
 </head>
@@ -23,8 +25,19 @@
                    <div><a href="./nosotros.html">NOSOTROS</a></div>
                    <div><a href="./contacto.html">CONTACTO</a></div>
                </div>
-            </nav>  
             </section>
+                    <input type="checkbox" id="btnMenu">
+        <label class="imgLabel" for="btnMenu"><img src="../assets/iconomenu3.png" alt="" width="30px" height="30px"></label>
+    <div class="menu">  
+        <ul>
+            <li><a href="./../index.html">Inicio</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+            <li><a href="./tienda.html">Tienda</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </div> 
+            </nav>
         </header>
         <!--Fin del Header-->
 <!-- Section 1 galeria --> 
@@ -73,15 +86,18 @@
 </div>
 <!-- Fin de section -->
 <!--FOOTER-->
-<footer class="footerClass-2">
-            <a href="https://www.instagram.com/" target="_blank">Seguinos en instagram</a>
-            <br />
-            <a href="https://www.google.com.ar/maps/place/Palermo,+CABA/@-34.5734321,-58.438568,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcb59c771eb933:0x6b3113b596d78c69!8m2!3d-34.5780691!4d-58.4265375" target="_blank">Encontranos en</a>
-            <br />
-            <a href="./../PAGES/Contacto.html">Si tenes alguna duda contactanos</a>
-          </footer>
+<footer class="bg-dark text-white">
+    <div class="container text-center">
+        <div class="col col-12"><a href="https://www.instagram.com/" target="_blank"> <img src="./../assets/instagram.jpg.png" alt="" width="30px" height="30px"></a><--Seguinos en instagram</div>
+        <div class="col col-12"><a href="https://www.google.com.ar/maps/place/Palermo,+CABA/@-34.5734321,-58.438568,14z/data=!3m1!4b1!4m5!3m4!1s0x95bcb59c771eb933:0x6b3113b596d78c69!8m2!3d-34.5780691!4d-58.4265375" target="_blank"><img src="./../assets/mundo.jpg.png" alt="" width="30px" height="30px"></a><--Encontranos en</div>
+        <div class="col col-12"><a href="./../PAGES/Contacto.html"><img src="./../assets/pregunta.jpg.png" alt="" width="30px" height="30px"></a><--Si tenes una duda contactanos</div>
+    </div>
+</footer>
     <!--Fin del FOOTER-->
-    </main>
+</main>
         
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
 </body>
 </html>

@@ -109,6 +109,10 @@
     }
 }
 
+footer {
+    margin-bottom: 0%;
+}
+
 /* Nosotros */
 .body{
     background-color: rgb(0, 0, 0);
@@ -202,6 +206,14 @@
 }
 
 /* Galeria */
+.carousel-inner img {
+    width: 100%;
+    max-height: 768px;
+}
+
+#carouselExampleIndicators {
+    margin-top: 100px;
+}
 
 /*Tienda*/
 .container1 {

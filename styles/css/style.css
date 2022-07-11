@@ -20,6 +20,13 @@
   background-color: rgb(54, 34, 1);
 }
 
+.bodyContacto {
+  background-image: url(./../assets/Contacto2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 .bodyIndexImg {
@@ -197,11 +204,9 @@ footer {
 }
 
 /* Contacto */
+
 .bodyContacto {
   background-image: url(./../../assets/Contacto2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .tituloForm {

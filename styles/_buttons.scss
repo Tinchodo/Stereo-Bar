@@ -6,6 +6,7 @@
     padding: 0px;
     z-index: 3;
   }
+  
 
 .desc {
     @extend %descr
@@ -14,3 +15,15 @@
 .button {
     background-color: map-get($estilos,color1);
 }    
+
+
+@mixin bodyContacto {
+    background-image: url(./../assets/Contacto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+.bodyContacto {
+    @include bodyContactos()
+  }

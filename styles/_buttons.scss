@@ -1,0 +1,16 @@
+%descr {
+    position: absolute;
+    bottom: 0px;    
+    margin: 0px ;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    z-index: 3;
+  }
+
+.desc {
+    @extend %descr
+}
+
+.button {
+    background-color: map-get($estilos,color1);
+}    
